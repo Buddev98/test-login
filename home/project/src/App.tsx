@@ -1,9 +1,10 @@
 import React from 'react'
+import RegistrationPage from './components/RegistrationPage'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <p>Start prompting (or editing) to see magic happen :)</p>
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+      <RegistrationPage />
     </div>
   )
 }
